@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    background: #eeeeee;
+    color: #444444;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+.card-default {
+    background: #ffffff; 
+    box-shadow: 1px 1px 5px silver; 
+    padding: 1rem; 
+    border-radius: 0.3rem;
+}
+
+.material-icons {
+    margin-right: 0.3rem;
+}
