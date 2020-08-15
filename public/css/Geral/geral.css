@@ -10,6 +10,10 @@ body {
     display: flex;
 }
 
+.centro {
+    text-align: center;
+}
+
 .card-default {
     background: #ffffff; 
     box-shadow: 1px 1px 5px silver; 

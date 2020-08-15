@@ -9,4 +9,21 @@ hr {
 .div-menu {
     display: flex;
     padding: 1rem 0rem;
+    font-size: 15px;
+    transition: 0.2s all;
+}
+
+.span-link {
+    cursor: pointer;
+    transition: 0.2s all;
+}
+
+.span-link:hover {
+    font-size: 16px;
+    transition: 0.2s all;
+}
+
+
+.menu-ativo {
+    color: #e67e22;
 }

@@ -18,6 +18,17 @@ class PlanoController extends Controller
         return view('Plano.index', $data);
     }
 
+    public function listarPlanos()
+    {
+        $planos = Plano::all();
+
+        $data = [
+            'planos' => $planos
+        ];
+
+        return view('Plano.listagem', $data);
+    }
+
     public function store(Request $request)
     {
         Plano::create($request->all());
